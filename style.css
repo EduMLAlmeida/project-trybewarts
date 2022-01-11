@@ -23,3 +23,20 @@
 #trybewarts-forms-logo {
     height: 500px;
 }
+
+.form-divs {
+    display: flex;
+}
+
+.form-inputs{
+    display: flex;
+    flex-grow: 1;
+}
+
+#label-rate-form {
+    display: flex;
+}
+
+.radio-rate {
+    margin-left: 10px;
+}
