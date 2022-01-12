@@ -15,21 +15,16 @@ function testEmail() {
 
 formButton.addEventListener('click', testEmail)
 
-// const agreementCheckBox = document.getElementById('agreement');
+const agreementCheckBox = document.getElementById('agreement');
+const buttonSubmit = document.getElementById('submit-btn');
+buttonSubmit.disabled = true;
 
-// function testSubmit() {
-//     // const agreementCheckBox2 = document.getElementById('agreement');
-//     const agreementCheckBoxValue = agreementCheckBox.value;
-    
-//     console.log(agreementCheckBoxValue)
-    
-//     // const passwordValue = password.value;
+function testSubmit(event) {
+    if (buttonSubmit.disabled === true) {
+        buttonSubmit.disabled = false;
+    } else if (buttonSubmit.disabled === false) {
+        buttonSubmit.disabled = true
+    }
+}
 
-//     // if(email.value === 'tryber@teste.com' && password.value === '123456') {
-//     //     window.alert('Olá, Tryber!')
-//     // } else {
-//     //     window.alert('Email ou senha inválidos.')
-//     // };
-// }
-
-// agreementCheckBox.addEventListener('click', testSubmit)
+agreementCheckBox.addEventListener('click', testSubmit)
