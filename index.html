@@ -51,27 +51,27 @@
                 <label id='label-content'>Qual conteúdo você está com mais vontade de aprender?</label>
                 <div>
                     <label for='hofs'>HoFs</label>
-                    <input type='checkbox' value='HoFs' id='hofs'>
+                    <input type='checkbox' class='subject' value='HoFs' id='hofs'>
                 </div>
                 <div>
                     <label for='jest'>Jest</label>
-                    <input type='checkbox' value='Jest' id='jest'>
+                    <input type='checkbox' class='subject' value='Jest' id='jest'>
                 </div>
                 <div>
                     <label for='promises'>Promises</label>
-                    <input type='checkbox' value='Promises' id='promises'>
+                    <input type='checkbox' class='subject' value='Promises' id='promises'>
                 </div>
                 <div>
                     <label for='react'>React</label>
-                    <input type='checkbox' value='React' id='react'>
+                    <input type='checkbox' class='subject' value='React' id='react'>
                 </div>
                 <div>
                     <label for='sql'>SQL</label>
-                    <input type='checkbox' value='SQL' id='sql'>
+                    <input type='checkbox' class='subject' value='SQL' id='sql'>
                 </div>
                 <div>
                     <label for='python'>Python</label>
-                    <input type='checkbox' value='Python' id='python'>
+                    <input type='checkbox' class='subject' value='Python' id='python'>
                 </div>
             </div>
             <div id='label-rate-form'>
@@ -119,7 +119,8 @@
             </div>
             <div>
                 <label for='textarea' class='textarea'>Deixe seu comentário:</label>
-                <textarea id='textarea' maxlength='500'></textarea>                 
+                <textarea id='textarea' maxlength='500'></textarea>
+                <label id='counter'>500</label>                
             </div>
             <div>
                 <label for='agreement' id='label-infos'>Você concorda com o uso das informações acima?</label>
@@ -128,6 +129,15 @@
             <button type='submit' id='submit-btn'>Enviar</button>
         </form>
         <img id='trybewarts-forms-logo' src='images/trybewarts-colored.svg'>
+        <ul>
+            <li id='nome-li'>Nome: -Nome- -Sobrenome-</li>
+            <li id='email-li'>Email: -Email-</li>
+            <li id='casa-li'>Casa: -Casa-</li>
+            <li id='familia-li'>Família: -Família-</li>
+            <li id='materias-li'>Matérias: -Matérias Selecionadas-</li>
+            <li id='avaliacao-li'>Avaliação: -Avaliação-</li>
+            <li id='observacoes-li'>Observações: -Observações-</li>
+        </ul>
     </main>
     <footer>
         <p>Direitos reservados à Trybewarts©</p>
