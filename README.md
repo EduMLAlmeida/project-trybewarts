@@ -1,4 +1,4 @@
-# Projeto Pixels Art
+# Projeto Trybewarts
 
 Projeto desenvolvido em dupla como forma de avaliação durante o curso de Desenvolvimento Web que realizei na Trybe (https://www.betrybe.com/).
 
