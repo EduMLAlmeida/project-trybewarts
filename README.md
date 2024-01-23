@@ -10,10 +10,10 @@ Avaliação referente à seção de HTML & CSS: Forms, Flexbox e Responsivo.
 
 ## Habilidades Utilizadas
 
-- Criar formulários em HTML
+- Criar formulários em HTML;
 
-- Utilizar CSS Flexbox para criar layouts flexíveis
+- Utilizar CSS Flexbox para criar layouts flexíveis;
 
-- Criar regras CSS específicas para serem aplicadas a dispositivos móveis
+- Criar regras CSS específicas para serem aplicadas a dispositivos móveis;
 
-- Construir páginas que alteram o seu layout de acordo com a orientação da tela
+- Construir páginas que alteram o seu layout de acordo com a orientação da tela.
